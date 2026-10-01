@@ -16,7 +16,12 @@ export default function Categories() {
               <T k="categories.items.0.name" as="h3" className="text-[clamp(24px,2.6vw,32px)] text-ink" />
               <T k="categories.items.0.detail" as="p" className="mt-4 max-w-[46ch] text-lg text-ink-soft" />
             </div>
-            <div className="mt-10 h-28 w-full rounded-[var(--radius-sm)] bg-gradient-to-br from-accent/15 to-transparent" aria-hidden="true" />
+            {/* three stacked cases, standing for "the colors we keep in stock" */}
+            <div className="mt-10 flex h-28 items-end gap-[-16px]" aria-hidden="true">
+              <div className="h-24 w-16 -mr-4 rotate-[-8deg] rounded-[var(--radius-sm)] border border-line bg-ink" />
+              <div className="h-28 w-16 rotate-[4deg] rounded-[var(--radius-sm)] border border-line bg-accent" />
+              <div className="h-24 w-16 -ml-4 rotate-[10deg] rounded-[var(--radius-sm)] border border-line bg-ink-soft" />
+            </div>
           </div>
         )}
         <div className="grid grid-cols-1 gap-4">
