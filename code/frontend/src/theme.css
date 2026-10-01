@@ -2,17 +2,19 @@
    these, so the owner changes the whole site by changing a value here — in
    the Studio, without a rebuild. Components never carry a raw colour. */
 :root {
-  --ground: #F6F2EA;
+  /* Graphite and titanium, with one jade accent — the metals and finishes
+     the accessories themselves come in, not a cream/terracotta default. */
+  --ground: #F0EFEC;
   --surface: #FFFFFF;
-  --ink: #1B1917;
-  --ink-soft: #5E5954;
-  --accent: #B8412E;
+  --ink: #17191C;
+  --ink-soft: #63666B;
+  --accent: #0E7C73;
   --accent-ink: #FFFFFF;
-  --line: rgba(27, 25, 23, 0.12);
+  --line: rgba(23, 25, 28, 0.12);
 
-  --font-display: "Fraunces";
+  --font-display: "Space Grotesk";
   --font-body: "Inter";
-  --weight-display: 500;
+  --weight-display: 600;
   --tracking-display: -0.02em;
 
   --radius: 12px;
@@ -29,8 +31,8 @@
   --space-8: 32px;
   --space-12: 48px;
   --space-16: 64px;
-  --shadow-sm: 0 1px 2px rgba(27, 25, 23, 0.06);
-  --shadow-md: 0 8px 24px -12px rgba(27, 25, 23, 0.25);
+  --shadow-sm: 0 1px 2px rgba(23, 25, 28, 0.06);
+  --shadow-md: 0 8px 24px -12px rgba(23, 25, 28, 0.25);
   --duration-fast: 120ms;
   --duration-base: 220ms;
   --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
