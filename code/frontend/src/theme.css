@@ -11,6 +11,12 @@
   --accent: #0E7C73;
   --accent-ink: #FFFFFF;
   --line: rgba(23, 25, 28, 0.12);
+  /* Dark-ground counterparts, for the hero and trust strip's sections set
+     on --ink rather than --ground. */
+  --ink-inverse: #FFFFFF;
+  --ink-inverse-soft: rgba(255, 255, 255, 0.72);
+  --line-dark: rgba(255, 255, 255, 0.18);
+  --surface-dim: #2A2E35;
 
   --font-display: "Space Grotesk";
   --font-body: "Inter";
