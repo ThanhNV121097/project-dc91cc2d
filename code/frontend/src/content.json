@@ -1,11 +1,34 @@
 {
-  "site": { "name": "Your business" },
-  "nav": { "links": [{ "label": "Home", "href": "/" }], "cta": { "label": "Get in touch", "href": "#contact" } },
-  "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": { "label": "Get in touch", "href": "#contact" }
+  "site": { "name": "Tony Apple" },
+  "nav": {
+    "links": [
+      { "label": "Categories", "href": "#categories" },
+      { "label": "Visit", "href": "#visit" }
+    ],
+    "cta": { "label": "Get directions", "href": "#visit" }
   },
-  "footer": { "line": "Your business · District 1, Saigon" }
+  "hero": {
+    "headline": "Genuine Apple accessories",
+    "sub": "Cases, chargers, and AirPods gear from the shop on Duy Tân.",
+    "cta": { "label": "Get directions", "href": "#visit" }
+  },
+  "categories": {
+    "heading": "What we carry",
+    "items": [
+      { "name": "Cases & covers", "detail": "MagSafe and leather cases for iPhone, in the colors we keep in stock." },
+      { "name": "Chargers & cables", "detail": "USB-C, MagSafe, and Lightning — original Apple parts." },
+      { "name": "AirPods accessories", "detail": "Ear tips, cases, and straps for every AirPods model." },
+      { "name": "Screen protection", "detail": "Tempered glass fitted while you wait." }
+    ]
+  },
+  "trust": {
+    "heading": "Genuine parts only",
+    "body": "Every product sold here is authentic Apple, sourced through official channels. No copies, no OEM substitutes."
+  },
+  "visit": {
+    "heading": "Visit the shop",
+    "address": "19 Duy Tân, Hà Nội",
+    "cta": { "label": "Get directions", "href": "https://www.google.com/maps?q=19+Duy+T%C3%A2n,+H%C3%A0+N%E1%BB%99i" }
+  },
+  "footer": { "line": "Tony Apple · 19 Duy Tân, Hà Nội" }
 }
